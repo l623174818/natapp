@@ -1,3 +1,4 @@
+import os
 import sys
 import time
 import logging
@@ -6,10 +7,14 @@ from watchdog.events import LoggingEventHandler
 
 print(time.ctime())
 
+
+def pull():
+    os.system('git status')
+
+
 # 更改内置类
 class cut(LoggingEventHandler):
     """Logs all the events captured."""
-
     def __init__(self, logger=None):
         super().__init__()
 
@@ -36,18 +41,26 @@ class cut(LoggingEventHandler):
 
     # log文件截取
     def on_modified(self, event):
-        super(LoggingEventHandler,self).on_modified(event)
+        super(LoggingEventHandler, self).on_modified(event)
         what = 'directory' if event.is_directory else 'file'
         logging.info("Modified %s: %s", what, event.src_path)
         NameExt = event.src_path.split('.')
         if NameExt[-1] == 'log':
-            logging.info("log提取地址中...")
-            fo = open("./log/INFO.log", "r")
-            log = fo.read()
-            tcp_position = log.find('tcp://server.natappfree.cc:',-1)
-            tcp = log[tcp_position-26:tcp_position]
-            fo.close()
-    
+            with open('./log/INFO.log', 'r') as fo:
+                log = fo.read()
+                tcp_position = log.rfind('server.natappfree.cc:')
+                print(tcp_position)
+                os.system('del .\log\INFO.log.001')
+            if tcp_position != -1:
+                tcp = log[tcp_position:tcp_position + 27]
+                print(tcp)
+                with open('./README.md', 'r+') as fo:
+                    fo.seek(0, 0)
+                    fo.write(time.ctime() + '\n' + tcp + '\n')
+
+            else:
+                pass
+
 
 # watchdog运行
 if __name__ == "__main__":
@@ -72,5 +85,3 @@ if __name__ == "__main__":
         observer.stop()
     #等待其他的子线程执行结束之后，主线程再终止
     observer.join()
-
-
