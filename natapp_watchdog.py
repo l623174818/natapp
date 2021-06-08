@@ -42,6 +42,7 @@ class cut(LoggingEventHandler):
         logging.info("Modified %s: %s", what, event.src_path)
         NameExt = event.src_path.split('.')
         if NameExt[-1] == 'log':
+            os.system('powershell rm .\log\INFO.log.001')
             with open('./log/INFO.log', 'r') as fo:
                 log = fo.read()
                 shutdown = log.rfind('Shutting down')
@@ -52,7 +53,6 @@ class cut(LoggingEventHandler):
                 else:
                     tcp_position = log.rfind('server.natappfree.cc:')
                     print(tcp_position)
-                    os.system('powershell rm .\log\INFO.log.001')
                     if tcp_position != -1:
                         tcp = log[tcp_position:tcp_position + 27]
                         print(tcp)
