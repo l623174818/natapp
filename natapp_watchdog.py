@@ -7,7 +7,6 @@ from watchdog.events import LoggingEventHandler
 
 print(time.ctime())
 
-print('(Ctrl+C to Quit)')
 
 
 # 更改内置类
@@ -66,6 +65,8 @@ class cut(LoggingEventHandler):
                         )
                     else:
                         pass
+        print('(Ctrl+C to Quit)')
+        
 
 
 # watchdog运行
