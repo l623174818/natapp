@@ -8,10 +8,6 @@ from watchdog.events import LoggingEventHandler
 print(time.ctime())
 
 
-def pull():
-    os.system('git status')
-
-
 # 更改内置类
 class cut(LoggingEventHandler):
     """Logs all the events captured."""
@@ -55,9 +51,10 @@ class cut(LoggingEventHandler):
                 tcp = log[tcp_position:tcp_position + 27]
                 print(tcp)
                 with open('./README.md', 'r+') as fo:
-                    fo.seek(0, 0)
                     fo.write(time.ctime() + ' ' + ' ' + '\n' + tcp + '\n')
-                os.system('powershell git status ; powershell git commit -am "Updated" ; powershell git push origin master')
+                os.system(
+                    'powershell git status ; powershell git commit -am "Updated" ; powershell git push origin master'
+                )
             else:
                 pass
 
