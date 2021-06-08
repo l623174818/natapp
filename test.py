@@ -9,7 +9,7 @@ print(time.ctime())
 
 
 def push():
-    os.system('git status ; git add -A ; git commit -m "1"')
-
+    os.system('git status ; git commit -a -m "Updated: `date +'%Y-%m-%d %H:%M:%S'`" ; git push origin master')
+print("%dffdsfasf")
 
 push()
