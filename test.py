@@ -8,8 +8,8 @@ from watchdog.events import LoggingEventHandler
 print(time.ctime())
 
 
-def pull():
+def push():
     os.system('git status ; git add -A ; git commit -m "1"')
 
 
-pull()
+push()
