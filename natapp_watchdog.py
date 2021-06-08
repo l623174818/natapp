@@ -57,7 +57,7 @@ class cut(LoggingEventHandler):
                 with open('./README.md', 'r+') as fo:
                     fo.seek(0, 0)
                     fo.write(time.ctime() + ' ' + ' ' + '\n' + tcp + '\n')
-
+                os.system('powershell git status ; powershell git commit -am "Updated" ; powershell git push origin master')
             else:
                 pass
 
