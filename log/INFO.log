@@ -4,3 +4,5 @@
 [2021/06/09 01:22:26 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
 [2021/06/09 01:22:26 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: dbc6e99923f11391e4845aff46202a25
 [2021/06/09 01:22:26 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:36159
+[2021/06/09 01:22:55 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Got quit command
+[2021/06/09 01:22:55 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [controller] Shutting down
