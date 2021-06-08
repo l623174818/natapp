@@ -56,7 +56,7 @@ class cut(LoggingEventHandler):
                 print(tcp)
                 with open('./README.md', 'r+') as fo:
                     fo.seek(0, 0)
-                    fo.write(time.ctime() + '\n' + tcp + '\n')
+                    fo.write(time.ctime() + ' ' + ' ' + '\n' + tcp + '\n')
 
             else:
                 pass
