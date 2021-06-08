@@ -65,7 +65,7 @@ class cut(LoggingEventHandler):
                         )
                     else:
                         pass
-        print('(Ctrl+C to Quit)')
+        print('\n'+'(Ctrl+C to Quit)')
         
 
 
