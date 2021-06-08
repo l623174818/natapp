@@ -8,11 +8,7 @@ from watchdog.events import LoggingEventHandler
 print(time.ctime())
 
 
-# def push():
-#     os.system('powershell git status ; git add -A ; powershell git commit -m "Updated: $(Get-Date)" ; powershell git push origin master')
+def push():
+    os.system('powershell git status ; powershell git commit -am "Updated" ; powershell git push origin master')
 
-# push()
-
-os.system('powershell git status')
-os.system('powershell git commit -am "Updated')
-os.system('powershell git push origin master')
+push()
