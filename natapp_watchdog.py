@@ -66,8 +66,6 @@ class cut(LoggingEventHandler):
                     else:
                         pass
         print('\n'+'(Ctrl+C to Quit)')
-        
-
 
 # watchdog运行
 if __name__ == "__main__":
