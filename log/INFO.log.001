@@ -1,0 +1,8 @@
+[2021/06/09 00:38:04 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2021/06/09 00:38:04 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
+[2021/06/09 00:38:04 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/06/09 00:38:04 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/06/09 00:38:04 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 5a2029151f4f48accf4403922894098d
+[2021/06/09 00:38:04 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:42241
+[2021/06/09 00:38:05 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Got quit command
+[2021/06/09 00:38:05 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [controller] Shutting down
