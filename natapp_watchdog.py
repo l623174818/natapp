@@ -44,19 +44,26 @@ class cut(LoggingEventHandler):
         if NameExt[-1] == 'log':
             with open('./log/INFO.log', 'r') as fo:
                 log = fo.read()
-                tcp_position = log.rfind('server.natappfree.cc:')
-                print(tcp_position)
-                os.system('powershell rm .\log\INFO.log.001')
-            if tcp_position != -1:
-                tcp = log[tcp_position:tcp_position + 27]
-                print(tcp)
-                with open('./README.md', 'r+') as fo:
-                    fo.write(time.ctime() + ' ' + ' ' + '\n' + tcp + '\n')
-                os.system(
-                    'powershell git status ; powershell git commit -am "Updated" ; powershell git push origin master'
-                )
-            else:
-                pass
+                shutdown = log.rfind('Shutting down')
+                if shutdown != -1:
+                    with open('./README.md', 'r+') as fo:
+                        fo.write(time.ctime() + ' ' + ' ' + '\n' +
+                                 'Shutting down' + '\n')
+                else:
+                    tcp_position = log.rfind('server.natappfree.cc:')
+                    print(tcp_position)
+                    os.system('powershell rm .\log\INFO.log.001')
+                    if tcp_position != -1:
+                        tcp = log[tcp_position:tcp_position + 27]
+                        print(tcp)
+                        with open('./README.md', 'r+') as fo:
+                            fo.write(time.ctime() + ' ' + ' ' + '\n' + tcp +
+                                     '\n')
+                        os.system(
+                            'powershell git status ; powershell git commit -am "Updated" ; powershell git push origin master'
+                        )
+                    else:
+                        pass
 
 
 # watchdog运行
