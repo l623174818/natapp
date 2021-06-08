@@ -14,6 +14,5 @@ print(time.ctime())
 # push()
 
 os.system('powershell git status')
-os.system('powershell git add -A')
-os.system('powershell git commit -m "Updated: $(Get-Date)"')
+os.system('powershell git commit -am "Updated')
 os.system('powershell git push origin master')
