@@ -45,7 +45,7 @@ class cut(LoggingEventHandler):
             os.system('powershell rm .\log\INFO.log.001')
             with open('./log/INFO.log', 'r') as fo:
                 log = fo.read()
-                shutdown = log.rfind('Shutting down')
+                shutdown = log.rfind('Shutting')
                 if shutdown != -1:
                     with open('./README.md', 'r+') as fo:
                         fo.write(time.ctime() + ' ' + ' ' + '\n' +
