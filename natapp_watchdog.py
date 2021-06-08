@@ -42,7 +42,7 @@ class cut(LoggingEventHandler):
         logging.info("Modified %s: %s", what, event.src_path)
         NameExt = event.src_path.split('.')
         if NameExt[-1] == 'log':
-            # os.system('powershell rm .\log\INFO.log.001')
+            os.system('powershell rm .\log\INFO.log.001')
             with open('./log/INFO.log', 'r') as fo:
                 log = fo.read()
                 shutdown = log.rfind('Shutting')
