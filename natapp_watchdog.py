@@ -50,7 +50,7 @@ class cut(LoggingEventHandler):
                 log = fo.read()
                 tcp_position = log.rfind('server.natappfree.cc:')
                 print(tcp_position)
-                os.system('del .\log\INFO.log.001')
+                os.system('powershell rm .\log\INFO.log.001')
             if tcp_position != -1:
                 tcp = log[tcp_position:tcp_position + 27]
                 print(tcp)
