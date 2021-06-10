@@ -1,6 +1,6 @@
-[2021/06/10 13:24:47 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
-[2021/06/10 13:24:47 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
-[2021/06/10 13:24:47 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/06/10 13:24:47 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/06/10 13:24:47 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: dbc51c3a3377ae0bb32be553de08399c
-[2021/06/10 13:24:47 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:34866
+[2021/06/10 13:27:33 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2021/06/10 13:27:33 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
+[2021/06/10 13:27:33 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/06/10 13:27:33 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/06/10 13:27:33 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 4c4b62ee888a3323c5788092415d17fb
+[2021/06/10 13:27:33 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:36474
