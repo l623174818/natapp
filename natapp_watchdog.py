@@ -43,12 +43,12 @@ class cut(LoggingEventHandler):
         logging.info("Modified %s: %s", what, event.src_path)
         NameExt = event.src_path.split('.')
         if NameExt[-1] == 'log':
-            os.system('powershell rm C:\\Users\\lu\\Downloads\\natapp_windows_amd64_2_3_9\\log\\INFO.log.*')
-            with open('C:\\Users\\lu\\Downloads\\natapp_windows_amd64_2_3_9/log/INFO.log', 'r') as fo:
+            os.system('powershell rm ./log/INFO.log.*')
+            with open('./log/INFO.log', 'r') as fo:
                 log = fo.read()
                 shutdown = log.rfind('Shutting')
                 if shutdown != -1:
-                    with open('C:\\Users\\lu\\Downloads\\natapp_windows_amd64_2_3_9/README.md', 'r+') as fo:
+                    with open('./README.md', 'r+') as fo:
                         fo.write(time.ctime() + ' ' + ' ' + '\n' +
                                  'Shutting down' + '\n')
                 else:
@@ -57,7 +57,7 @@ class cut(LoggingEventHandler):
                     if tcp_position != -1:
                         tcp = log[tcp_position:tcp_position + 27]
                         print(tcp)
-                        with open('C:\\Users\\lu\\Downloads\\natapp_windows_amd64_2_3_9/README.md', 'r+') as fo:
+                        with open('./README.md', 'r+') as fo:
                             fo.write(time.ctime() + ' ' + ' ' + '\n' + tcp +
                                      '\n')
                         os.system(
@@ -65,7 +65,6 @@ class cut(LoggingEventHandler):
                         )
                     else:
                         pass
-        print('\n'+'(Ctrl+C to Quit)')
 
 # watchdog运行
 if __name__ == "__main__":
