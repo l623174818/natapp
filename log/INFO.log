@@ -120,3 +120,9 @@
 [2021/06/14 02:42:15 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 93721e0b6a7446035bb6828b526b4855
 [2021/06/14 02:42:15 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:35148
 [2021/06/14 02:44:35 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:5cc97310] Server failed to write StartProxy: read tcp 192.168.50.45:60848->112.74.89.58:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+[2021/06/15 01:22:21 CST] [EROR] (natapp/src/log.Error:120) control recovering from failure unexpected end of JSON input
+[2021/06/15 01:22:21 CST] [INFO] (natapp/src/log.Info:112) Waiting 1 seconds before reconnecting
+[2021/06/15 01:22:21 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:38053ed3] Server failed to write StartProxy: unexpected end of JSON input
+[2021/06/15 01:22:27 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 93721e0b6a7446035bb6828b526b4855
+[2021/06/15 01:22:27 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:33967
+[2021/06/15 01:22:35 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [ctl:79cf3406] Got error use of closed network connection when writing PingMsg
