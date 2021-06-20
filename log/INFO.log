@@ -4,3 +4,4 @@
 [2021/06/20 11:49:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
 [2021/06/20 11:49:35 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 17f06873412826afb5ef8a17410712ec
 [2021/06/20 11:49:35 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:38488
+[2021/06/20 11:49:36 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:65f05ed7] Joined with connection pxy:5e4b81ab
