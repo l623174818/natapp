@@ -1,9 +1,6 @@
-[2021/06/20 11:51:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
-[2021/06/20 11:51:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
-[2021/06/20 11:51:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/06/20 11:51:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/06/20 11:51:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 9247b3942563026c1407eb79dfcdcfdc
-[2021/06/20 11:51:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:38077
-[2021/06/20 11:56:39 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:5ac80248] Server failed to write StartProxy: unexpected end of JSON input
-[2021/06/20 11:56:39 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:2ff5b28] Joined with connection pxy:8b7a40a
-[2021/06/20 11:56:39 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:2ff5b28] Copied 0 bytes to pxy:8b7a40a before failing with error read tcp 127.0.0.1:56689->127.0.0.1:3389: wsarecv: An existing connection was forcibly closed by the remote host.
+[2021/06/22 01:03:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2021/06/22 01:03:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
+[2021/06/22 01:03:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/06/22 01:03:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/06/22 01:03:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: 61e7af3593a18cc28ef6e95cfe23602a
+[2021/06/22 01:03:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:41040
