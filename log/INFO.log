@@ -4,3 +4,17 @@
 [2021/06/26 02:56:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
 [2021/06/26 02:56:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: bef4a5285e412b0af5956cfa3f748cde
 [2021/06/26 02:56:34 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:38494
+[2021/06/26 03:03:13 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:3b18a514] Server failed to write StartProxy: unexpected end of JSON input
+[2021/06/26 03:03:13 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:15d4939d] Joined with connection pxy:189feb9e
+[2021/06/26 03:03:13 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:15d4939d] Copied 0 bytes to pxy:189feb9e before failing with error read tcp 127.0.0.1:63594->127.0.0.1:3389: wsarecv: An existing connection was forcibly closed by the remote host.
+[2021/06/26 10:24:01 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:4abab37d] Server failed to write StartProxy: unexpected end of JSON input
+[2021/06/26 10:24:01 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:63f0f07a] Joined with connection pxy:4d934161
+[2021/06/26 10:24:08 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:6907c86a] Joined with connection pxy:5c586b2a
+[2021/06/26 12:50:57 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:1d7b9e41] Server failed to write StartProxy: unexpected end of JSON input
+[2021/06/26 12:50:57 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:60616a82] Joined with connection pxy:4fcb824b
+[2021/06/26 12:51:02 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:608a517f] Joined with connection pxy:2cd3ea22
+[2021/06/26 13:26:39 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [pxy:2cd3ea22] Copied 485764 bytes to prv:608a517f before failing with error read tcp 192.168.50.250:50603->112.74.89.58:443: i/o timeout
+[2021/06/26 13:26:39 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:608a517f] Copied 9691448 bytes to pxy:2cd3ea22 before failing with error read tcp 127.0.0.1:50606->127.0.0.1:3389: i/o timeout
+[2021/06/26 13:56:15 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:5244becb] Server failed to write StartProxy: unexpected end of JSON input
+[2021/06/26 13:56:15 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:9c4cb86] Joined with connection pxy:359ccbe1
+[2021/06/26 13:56:31 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:577190fd] Joined with connection pxy:4ff365b6
