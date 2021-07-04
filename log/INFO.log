@@ -1,29 +1,6 @@
-[2021/07/04 02:17:40 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
-[2021/07/04 02:17:40 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
-[2021/07/04 02:17:40 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 02:17:40 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 02:17:40 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: ff1f47d060b2f5f13339df73482baeef
-[2021/07/04 02:17:40 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:43882
-[2021/07/04 08:37:51 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:1e286681] Server failed to write StartProxy: unexpected end of JSON input
-[2021/07/04 08:37:51 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:5ca59fc4] Joined with connection pxy:7b6cac3f
-[2021/07/04 08:38:20 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 08:38:21 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 08:38:50 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:5ca59fc4] Copied 1164301 bytes to pxy:7b6cac3f before failing with error read tcp 127.0.0.1:50917->127.0.0.1:3389: wsarecv: An existing connection was forcibly closed by the remote host.
-[2021/07/04 08:38:50 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 08:38:50 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 08:38:50 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
-[2021/07/04 09:58:02 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:7c36495a] Server failed to write StartProxy: unexpected end of JSON input
-[2021/07/04 09:58:02 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:15689f9c] Joined with connection pxy:85ed77d
-[2021/07/04 09:58:09 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:35e0602a] Joined with connection pxy:659eaba9
-[2021/07/04 10:30:20 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:35e0602a] Copied 10699469 bytes to pxy:659eaba9 before failing with error read tcp 127.0.0.1:54965->127.0.0.1:3389: i/o timeout
-[2021/07/04 10:54:15 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:488d4db8] Server failed to write StartProxy: unexpected end of JSON input
-[2021/07/04 10:54:15 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:6afb3479] Joined with connection pxy:754fee87
-[2021/07/04 10:54:21 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:299df98] Joined with connection pxy:27fe6d17
-[2021/07/04 11:05:48 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:299df98] Copied 3641329 bytes to pxy:27fe6d17 before failing with error read tcp 127.0.0.1:62799->127.0.0.1:3389: i/o timeout
-[2021/07/04 11:05:48 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [pxy:27fe6d17] Copied 272260 bytes to prv:299df98 before failing with error read tcp 192.168.50.185:62796->112.74.89.58:443: i/o timeout
-[2021/07/04 11:31:16 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:ad1b42f] Server failed to write StartProxy: unexpected end of JSON input
-[2021/07/04 11:31:16 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:27288c59] Joined with connection pxy:1f0ac362
-[2021/07/04 11:31:21 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:2ef29c69] Joined with connection pxy:1ac466da
-[2021/07/04 15:46:07 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:7e1c56e6] Server failed to write StartProxy: unexpected end of JSON input
-[2021/07/04 15:46:07 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [prv:297733c7] Joined with connection pxy:4635efa3
-[2021/07/04 15:51:33 CST] [WARN] (natapp/src/log.(*PrefixLogger).Warn:87) [prv:297733c7] Copied 5730641 bytes to pxy:4635efa3 before failing with error read tcp 127.0.0.1:56102->127.0.0.1:3389: wsarecv: An existing connection was forcibly closed by the remote host.
+[2021/07/05 00:15:22 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2021/07/05 00:15:22 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [web] Serving web interface on 127.0.0.1:4040
+[2021/07/05 00:15:22 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/07/05 00:15:22 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [view] [term] Resize event, redrawing
+[2021/07/05 00:15:22 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Authenticated with server, client id: ef105eff804f7b57dc9f7f02d58db473
+[2021/07/05 00:15:22 CST] [INFO] (natapp/src/log.(*PrefixLogger).Info:83) [client] Tunnel established at tcp://server.natappfree.cc:36994
